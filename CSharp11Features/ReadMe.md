@@ -5,7 +5,7 @@
 
 - Raw string literals
 - Generic math support
-- Generic attributes
+- [Generic attributes](/GenericAttributesExample.cs) 
 - UTF-8 string literals
 - Newlines in string interpolation expressions
 - List patterns
