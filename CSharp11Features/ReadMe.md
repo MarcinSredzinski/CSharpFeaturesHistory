@@ -3,12 +3,13 @@
 [C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
 
 
-- Raw string literals
+- [Raw string literals](/RawStringLiteralsExample.cs)
 - Generic math support
+- [Static virtual memebers in interfaces](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members)
 - [Generic attributes](/GenericAttributesExample.cs) 
-- UTF-8 string literals
+- [UTF-8 string literals](/Utf8StringLiteralsExample.cs)
 - Newlines in string interpolation expressions
-- List patterns
+- [List patterns](/ListPatternsExample.cs) 
 - File-local types
 - Required members
 - Auto-default structs
