@@ -4,7 +4,7 @@
 
 
 - [Raw string literals](/RawStringLiteralsExample.cs)
-- Generic math support
+- [Generic math support](/GenericMathSupportExample.cs)
 - [Static virtual memebers in interfaces](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members)
 - [Generic attributes](/GenericAttributesExample.cs) 
 - [UTF-8 string literals](/Utf8StringLiteralsExample.cs)
