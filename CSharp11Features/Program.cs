@@ -2,18 +2,21 @@
 using CSharp11Features;
 using System.Text;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
-IExample clasicAttributes = new ClassicAttributesExample();
-clasicAttributes.Execute();
-IExample genericAttributes = new GenericAttributesExample();
-genericAttributes.Execute();
+//IExample clasicAttributes = new ClassicAttributesExample();
+//clasicAttributes.Execute();
+//IExample genericAttributes = new GenericAttributesExample();
+//genericAttributes.Execute();
 
-IExample rawStringLiterals = new RawStringLiteralsExample();
-rawStringLiterals.Execute();
+//IExample rawStringLiterals = new RawStringLiteralsExample();
+//rawStringLiterals.Execute();
 
-IExample listPatternsExample = new ListPatternsExample();
-listPatternsExample.Execute();
+//IExample listPatternsExample = new ListPatternsExample();
+//listPatternsExample.Execute();
 
-IExample utf8StringLiteralsExample = new Utf8StringLiteralsExample();
-utf8StringLiteralsExample.Execute();
+//IExample utf8StringLiteralsExample = new Utf8StringLiteralsExample();
+//utf8StringLiteralsExample.Execute();
+
+IExample patternMatchSpanExample =  new PatternMatchSpanExample();
+patternMatchSpanExample.Execute();

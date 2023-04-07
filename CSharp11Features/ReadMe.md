@@ -13,7 +13,7 @@
 - [File-local types](/FileScopedTypes/FileScopedTypesExample.cs) - potentially faster source generation - source generator doesn't need to search for unused names, can just use "file" keyword
 - [Required members](/RequiredMembersExample.cs)
 - Auto-default structs
-- Pattern match Span<char> on a constant string
+- [Pattern match Span<char> on a constant string](/PatternMatchSpanExample.cs)
 - Extended nameof scope
 - Numeric IntPtr
 - ref fields and scoped ref
