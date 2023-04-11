@@ -12,10 +12,10 @@
 - [List patterns](/ListPatternsExample.cs) 
 - [File-local types](/FileScopedTypes/FileScopedTypesExample.cs) - potentially faster source generation - source generator doesn't need to search for unused names, can just use "file" keyword
 - [Required members](/RequiredMembersExample.cs)
-- Auto-default structs
+- [Auto-default structs](/AutoDefaultStructExample.cs)
 - [Pattern match Span<char> on a constant string](/PatternMatchSpanExample.cs)
-- Extended nameof scope
+- [Extended nameof scope](/ExtendedNameOfExample.cs)
 - Numeric IntPtr
 - ref fields and scoped ref
-- Improved method group conversion to delegate
+- [Improved method group conversion to delegate](/ImprovedMethodGroupConversionToDelegate.cs)
 - Warning wave 7
