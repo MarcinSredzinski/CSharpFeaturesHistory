@@ -15,7 +15,6 @@
 - [Auto-default structs](/AutoDefaultStructExample.cs)
 - [Pattern match Span<char> on a constant string](/PatternMatchSpanExample.cs)
 - [Extended nameof scope](/ExtendedNameOfExample.cs)
-- Numeric IntPtr
-- ref fields and scoped ref
+- [Numeric IntPtr](/NumericIntPointerExample.cs)
+- [ref fields and scoped ref](/RefFieldsAndScopedRefExample.cs)
 - [Improved method group conversion to delegate](/ImprovedMethodGroupConversionToDelegate.cs)
-- Warning wave 7
