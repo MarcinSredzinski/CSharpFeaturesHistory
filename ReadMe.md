@@ -1,6 +1,6 @@
-﻿# What 's new in C# 11
+﻿# What 's new in C#
 
-[C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
+## [C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
 
 
 - [Raw string literals](/CSharp11Features/RawStringLiteralsExample.cs)
@@ -18,3 +18,8 @@
 - [Numeric IntPtr](/CSharp11Features/NumericIntPointerExample.cs)
 - [ref fields and scoped ref](/CSharp11Features/RefFieldsAndScopedRefExample.cs)
 - [Improved method group conversion to delegate](/CSharp11Features/ImprovedMethodGroupConversionToDelegate.cs)
+
+
+## [C# 10](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
+- [Global usings](/CSharp10Features/GlobalUsings.cs)
+- [FileScopedNamespaces](/CSharp10Features/FileScopedNamespaces.cs)
