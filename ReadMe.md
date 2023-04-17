@@ -22,4 +22,5 @@
 
 ## [C# 10](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10)
 - [Global usings](/CSharp10Features/GlobalUsings.cs)
-- [FileScopedNamespaces](/CSharp10Features/FileScopedNamespaces.cs)
+- [File Scoped Namespaces](/CSharp10Features/FileScopedNamespaces.cs)
+- [Constant Interpolated strings](/CSharp10Features/ConstantInterpolatedStrings.cs)
