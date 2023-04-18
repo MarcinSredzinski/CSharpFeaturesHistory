@@ -24,3 +24,5 @@
 - [Global usings](/CSharp10Features/GlobalUsings.cs)
 - [File Scoped Namespaces](/CSharp10Features/FileScopedNamespaces.cs)
 - [Constant Interpolated strings](/CSharp10Features/ConstantInterpolatedStrings.cs)
+- [Lambda improvements](/CSharp10Features/LambdaImprovements.cs)
+- [Extended property patterns](/CSharp10Features/ExtendedPropertyPatterns.cs)
