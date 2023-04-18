@@ -2,7 +2,7 @@
 
 internal class LambdaImprovements
 {
-    internal void RunExample()
+    internal void Execute()
     {
         //That's how it used to be in c# 9
         //Func<string> helloWorld = () => "hello world";
@@ -13,6 +13,5 @@ internal class LambdaImprovements
         var text = string? () => null;
         //having it like this wouldn't work - delegate type cannot be inferred
         //var text2 = () => null;
-
     }
 }
