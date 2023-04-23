@@ -17,7 +17,9 @@ internal class AssignmentAndDeclarationInTheSameDeconstruction
     internal void Execute()
     {
         string firstName = "Joseph";
+        //Before you had to either assign or declare the variables, now you can mix, match and discard. 
         (firstName, string lastName, _) = GetPersonBy(firstName);
+
         Console.WriteLine($"{firstName} {lastName}");
     }
 }

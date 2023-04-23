@@ -1,8 +1,6 @@
 ﻿# What 's new in C#
 
 ## [C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
-
-
 - [Raw string literals](/CSharp11Features/RawStringLiteralsExample.cs)
 - [Generic math support](/CSharp11Features/GenericMathSupportExample.cs)
 - [Static virtual memebers in interfaces](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/static-virtual-interface-members)
@@ -30,8 +28,12 @@
 - [Records seal ToString()](/CSharp10Features/RecordTypeSealToString.cs)  
 - [Improvements of structure types](/CSharp10Features/ImprovementsOfStructureTypes.cs)  
 - [Allow both assignment and declaration in the same deconstruction](/CSharp10Features/AssignmentAndDeclarationInTheSameDeconstruction.cs)  
-Interpolated string handlers
-Record types can seal ToString()
-Improved definite assignment
+- [Interpolated string handlers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated#compilation-of-interpolated-strings)
+- [Improved definite assignment](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10#improved-definite-assignment) - more accurate warnings for definite assignment, e.g.: 
+> string representation = "N/A";  
+if ((c != null && c.GetDependentValue(out object obj)) == true)  
+{  
+   representation = obj.ToString(); // undesired error  
+}  
 
-Allow AsyncMethodBuilder attribute on methods
+- [Allow AsyncMethodBuilder attribute on methods](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10#allow-asyncmethodbuilder-attribute-on-methods) - Read about it more later on, [code example](https://gist.github.com/Horusiath/401ed16563dd442980de681d384f25b9)
