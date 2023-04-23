@@ -29,8 +29,9 @@
 - [Record structs](/CSharp10Features/RecordStructsExample.cs)
 - [Records seal ToString()](/CSharp10Features/RecordTypeSealToString.cs)  
 - [Improvements of structure types](/CSharp10Features/ImprovementsOfStructureTypes.cs)  
+- [Allow both assignment and declaration in the same deconstruction](/CSharp10Features/AssignmentAndDeclarationInTheSameDeconstruction.cs)  
 Interpolated string handlers
 Record types can seal ToString()
 Improved definite assignment
-Allow both assignment and declaration in the same deconstruction
+
 Allow AsyncMethodBuilder attribute on methods
