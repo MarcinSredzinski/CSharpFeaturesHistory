@@ -35,5 +35,8 @@ if ((c != null && c.GetDependentValue(out object obj)) == true)
 {  
    representation = obj.ToString(); // undesired error  
 }  
-
 - [Allow AsyncMethodBuilder attribute on methods](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10#allow-asyncmethodbuilder-attribute-on-methods) - Read about it more later on, [code example](https://gist.github.com/Horusiath/401ed16563dd442980de681d384f25b9)
+
+  
+## [C# 9.0](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9)  
+- [Top-level statements](/CSharp10Features/Program.cs) - remove all the unnecessary clutter from the applications, see [Top level statements](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#top-level-statements)
