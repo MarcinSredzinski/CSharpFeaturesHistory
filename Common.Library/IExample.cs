@@ -1,4 +1,4 @@
-﻿namespace CSharp11Features;
+﻿namespace Common.Library;
 
 public interface IExample
 {

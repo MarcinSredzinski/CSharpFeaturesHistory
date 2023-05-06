@@ -11,4 +11,8 @@
     <None Remove="ReadMe.md" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Library\Common.Library.csproj" />
+  </ItemGroup>
+
 </Project>

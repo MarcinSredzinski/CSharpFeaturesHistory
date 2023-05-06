@@ -5,9 +5,14 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
   </PropertyGroup>
 
 	<ItemGroup Condition="'$(ImplicitUsings)' == 'true' Or '$(ImplicitUsings)'=='enable'">
-		<Using Include="System.Text.Json"/>
+		<Using Include="System.Text.Json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Common.Library\Common.Library.csproj" />
 	</ItemGroup>
 </Project>
