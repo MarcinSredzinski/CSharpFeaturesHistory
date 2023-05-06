@@ -14,7 +14,10 @@ internal class ExtendedNameOfExample : IExample
 }
 public class NameAttribute : Attribute
 {
-    private string text;
+
+#pragma warning disable IDE0052 // Remove unread private members
+    private readonly string text;
+#pragma warning restore IDE0052 // Remove unread private members
 
     public NameAttribute(string text)
     {
