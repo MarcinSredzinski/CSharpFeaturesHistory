@@ -2,5 +2,5 @@
 
 public class Fact : IGenre
 {
-    public string GenreName { get; set; }
+    public string? GenreName { get; set; }
 }

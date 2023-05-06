@@ -5,5 +5,5 @@ namespace CSharp11Features.GenericAttributes;
 [AuthorGenre<Fantasy>()]
 public class UKLeGuin : IAuthor
 {
-    public string FirstName { get; set; }
+    public string? FirstName { get; set; }
 }

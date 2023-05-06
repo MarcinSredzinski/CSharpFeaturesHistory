@@ -2,5 +2,5 @@
 
 public interface IAuthor
 {
-    public string FirstName { get; set; }
+    public string? FirstName { get; set; }
 }

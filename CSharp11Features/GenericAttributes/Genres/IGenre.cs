@@ -2,5 +2,5 @@
 
 public interface IGenre
 {
-    public string GenreName { get; set; }
+    public string? GenreName { get; set; }
 }

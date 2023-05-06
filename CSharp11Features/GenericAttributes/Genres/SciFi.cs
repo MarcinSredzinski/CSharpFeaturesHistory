@@ -2,5 +2,5 @@
 
 public class SciFi : IGenre
 {
-    public string GenreName { get; set; }
+    public string? GenreName { get; set; }
 }
