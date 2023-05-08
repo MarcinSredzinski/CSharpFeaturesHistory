@@ -42,4 +42,5 @@ if ((c != null && c.GetDependentValue(out object obj)) == true)
 - [Top-level statements](/CSharp9Features/Program.cs) - remove all the unnecessary clutter from the applications, see [Top level statements](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#top-level-statements), 
 - [Init setters](/CSharp9Features/InitSettersExample.cs)
 - [Known Object Type Shorthand Instantation](/CSharp9Features/KnownObjectTypeShorthandInstantation.cs)
-- [Relational pattern matching](/CSharp9Features/
+- [Relational pattern matching](/CSharp9Features/RelationalPatternMatchingExample.cs)
+- [Logical pattern matching](/CSharp9Features/LogicalPatternMatchingExample.cs)
