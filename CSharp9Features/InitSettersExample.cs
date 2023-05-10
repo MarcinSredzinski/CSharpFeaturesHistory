@@ -1,8 +1,10 @@
-﻿namespace CSharp9Features;
+﻿using Common.Library;
 
-internal class InitSettersExample
+namespace CSharp9Features;
+
+public class InitSettersExample : IExample
 {
-    void Execute()
+    public void Execute()
     {
         var person = new Person();
        // person.Age = 50; - results in error. You can only set init statements in constructor, on base or in initialization of the object.

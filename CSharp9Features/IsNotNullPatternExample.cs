@@ -1,8 +1,10 @@
-﻿namespace CSharp9Features;
+﻿using Common.Library;
 
-internal class IsNotNullPatternExample
+namespace CSharp9Features;
+
+public class IsNotNullPatternExample : IExample
 {
-    internal void Execute()
+    public void Execute()
     {
         WeatherForecast? forecast = null;
 
