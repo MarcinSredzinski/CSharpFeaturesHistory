@@ -1,6 +1,8 @@
-﻿namespace CSharp9Features;
+﻿using Common.Library;
 
-internal class RelationalPatternMatchingExample
+namespace CSharp9Features;
+
+internal class RelationalPatternMatchingExample : IExample
 {
     WeatherForecast[] forecast = new WeatherForecast[] { new WeatherForecast { Temperature = 10 },
                                                     new WeatherForecast { Temperature = 100 },
