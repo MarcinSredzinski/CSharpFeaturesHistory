@@ -1,7 +1,16 @@
-﻿namespace CSharp9Features;
+﻿using Common.Library;
 
-internal class RecordsExample
+namespace CSharp9Features;
+
+internal class RecordsExample : IExample
 {
+    public void Execute()
+    {
+        var testPerson1 = new TestPerson("John", "Connor");
+        var testPerson2 = new TestPersonClass("Sarah", "Connor");
+        Console.WriteLine(testPerson1);
+        Console.WriteLine(testPerson2);
+    }
 }
 
 //reference type
