@@ -16,9 +16,11 @@ internal class RecordsExample : IExample
         var testPerson3 = new TestPerson("John", "Connor");
         var testPerson4 = new TestPersonClass("Sarah", "Connor");
 
-        Console.WriteLine(testPerson1==testPerson3);
-        Console.WriteLine(testPerson2==testPerson4);
+        Console.WriteLine(Equals(testPerson1, testPerson3));
+        Console.WriteLine(Equals(testPerson2,testPerson4));
 
+        Console.WriteLine(ReferenceEquals(testPerson1, testPerson3));
+        Console.WriteLine(ReferenceEquals(testPerson2, testPerson4));
     }
 }
 
