@@ -1,4 +1,5 @@
 ﻿# What 's new in C#
+## [C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)
 
 ## [C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
 - [Raw string literals](/CSharp11Features/RawStringLiteralsExample.cs)
